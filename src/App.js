@@ -83,7 +83,7 @@ function App() {
               <a href="https://github.com/hemant2186" target="_blank" rel="noreferrer">
                 GitHub
               </a>
-              <a href="https://customer-churn-risk-analysis.onrender.com" target="_blank" rel="noreferrer">
+              <a href="https://customer-churn-risk-analysis-9fwthpg9acxegr7mvystzo.streamlit.app/" target="_blank" rel="noreferrer">
                 Live Demo
               </a>
             </div>
