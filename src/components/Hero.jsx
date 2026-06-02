@@ -65,7 +65,7 @@ function Hero() {
           transition={{ duration: 0.75, delay: 0.15, ease: "easeOut" }}
         >
           <div className="profile-card">
-            <img src="/profile.png" alt="Hemant Kumar" />
+            <img src="/hemant.jpeg" alt="Hemant Kumar" />
             <div className="profile-meta">
               <span>Available for AI/ML roles</span>
               <strong>Production AI + SaaS</strong>
