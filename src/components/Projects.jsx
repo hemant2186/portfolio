@@ -9,7 +9,10 @@ const projects = [
     metrics: ["307K+ records", "324 engineered features", "ROC-AUC 0.781"],
     description:
       "Production-grade credit risk scoring SaaS with monitoring dashboards, audit logging, fairness reports and FastAPI endpoints.",
-    links: ["GitHub", "Live Demo"],
+    links: {
+      github: "https://github.com/hemant2186/credit-risk-loan-default-prediction",
+      live: "https://credit-risk-loan.streamlit.app/",
+    },
   },
   {
     title: "ChurnGuard AI",
@@ -18,7 +21,10 @@ const projects = [
     metrics: ["92.5% Recall", "ROC-AUC 0.841"],
     description:
       "Customer retention analytics SaaS with drift monitoring, explainability, CI/CD and batch scoring.",
-    links: ["GitHub", "Live Demo"],
+    links: {
+      github: "https://github.com/hemant2186/customer-churn-risk-analysis",
+      live: "https://customer-churn-strategy.streamlit.app/",
+    },
   },
   {
     title: "PathPilot AI",
@@ -27,7 +33,9 @@ const projects = [
     metrics: ["Recommendation engine", "JWT authentication"],
     description:
       "Adaptive learning platform with recommendation engines, analytics and JWT authentication.",
-    links: ["GitHub"],
+    links: {
+      github: "https://github.com/hemant2186/Automated-Learning-System",
+    },
   },
   {
     title: "FOUNDIT",
@@ -36,7 +44,10 @@ const projects = [
     metrics: ["Google OAuth", "Real-time updates"],
     description:
       "Cross-platform Lost & Found application with Google OAuth and real-time updates.",
-    links: ["GitHub", "Live Demo"],
+    links: {
+      github: "https://github.com/hemant2186/FOUNDIT",
+      live: "https://foundit-gcet.web.app/",
+    },
   },
 ];
 
@@ -75,13 +86,13 @@ function Projects() {
               <div className="project-title-row">
                 <h3>{project.title}</h3>
                 <div className="project-actions">
-                  {project.links.includes("GitHub") && (
-                    <a href="https://github.com/hemant2186" target="_blank" rel="noreferrer" aria-label={`${project.title} GitHub`}>
+                  {project.links.github && (
+                    <a href={project.links.github} target="_blank" rel="noreferrer" aria-label={`${project.title} GitHub`}>
                       <FiGithub aria-hidden="true" />
                     </a>
                   )}
-                  {project.links.includes("Live Demo") && (
-                    <a href="#contact" aria-label={`${project.title} live demo`}>
+                  {project.links.live && (
+                    <a href={project.links.live} target="_blank" rel="noreferrer" aria-label={`${project.title} live demo`}>
                       <FiExternalLink aria-hidden="true" />
                     </a>
                   )}
