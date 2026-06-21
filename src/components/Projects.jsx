@@ -35,6 +35,7 @@ const projects = [
       "Adaptive learning platform with recommendation engines, analytics and JWT authentication.",
     links: {
       github: "https://github.com/hemant2186/Automated-Learning-System",
+      live: "https://automated-learning-system.vercel.app/",
     },
   },
   {
