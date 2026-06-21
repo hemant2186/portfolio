@@ -34,7 +34,7 @@ function Hero() {
             <a className="button button-primary" href="#projects">
               View Projects <FiArrowUpRight aria-hidden="true" />
             </a>
-            <a className="button" href="/resume.pdf" download>
+            <a className="button" href="/Hemant_Kumar_Resume.pdf" download>
               Download Resume <FiDownload aria-hidden="true" />
             </a>
             <a
