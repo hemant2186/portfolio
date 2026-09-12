@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { ReactTyped } from "react-typed";
 import {
   FiArrowUpRight,
-  FiDownload,
   FiGithub,
   FiLinkedin,
 } from "react-icons/fi";
