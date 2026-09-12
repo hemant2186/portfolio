@@ -23,6 +23,17 @@ const experiences = [
       "Feature engineering",
     ],
   },
+  {
+    role: "Summer Intern - Data Science with Python",
+    company: "Galgotias College of Engineering and Technology",
+    date: "1 Month",
+    responsibilities: [
+      "Completed 20 machine learning and deep learning projects",
+      "Built ANN, CNN, RNN, and LSTM models",
+      "Worked with tabular, image, text, and sequential data",
+      "Used Python, Scikit-learn, TensorFlow, Keras, NumPy, and Pandas",
+    ],
+  },
 ];
 
 function Experience() {
@@ -45,6 +56,7 @@ function Experience() {
             whileHover={{ y: -5 }}
           >
             <div className="timeline-dot" aria-hidden="true" />
+
             <div className="timeline-top">
               <div>
                 <h3>{item.role}</h3>
@@ -52,6 +64,7 @@ function Experience() {
               </div>
               <span>{item.date}</span>
             </div>
+
             <ul>
               {item.responsibilities.map((responsibility) => (
                 <li key={responsibility}>{responsibility}</li>

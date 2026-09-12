@@ -2,10 +2,9 @@ import { motion } from "framer-motion";
 import { FiCheckCircle } from "react-icons/fi";
 
 const achievements = [
-  "Participated in Google Cloud GenAI Exchange Hackathon",
-  "Participated in IEEE MAIT Agentic AI Hackathon",
-  "Built and deployed 4 AI SaaS applications",
-  "Solved 250+ DSA problems",
+  "Participated in 8+ hackathons; secured finalist position in 3+, including IEEE MAIT Agentic AI Hackathon; solved 350+ DSA problems."
+, "Oracle Cloud Infrastructure 2025 AI Foundations Associate",
+" Completed job simulations at Deloitte (Data Analytics) and Tata (GenAI-Powered Data Analytics, Cybersecurity Analyst) via Forage"
 ];
 
 function Achievements() {

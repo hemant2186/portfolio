@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const stats = [
   { value: "4+", label: "AI Products Deployed" },
   { value: "307K+", label: "Records Processed" },
-  { value: "250+", label: "DSA Problems Solved" },
+  { value: "350+", label: "DSA Problems Solved" },
   { value: "2", label: "Industry Internships" },
 ];
 

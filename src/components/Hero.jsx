@@ -1,6 +1,12 @@
 import { motion } from "framer-motion";
 import { ReactTyped } from "react-typed";
-import { FiArrowUpRight, FiDownload, FiGithub, FiLinkedin } from "react-icons/fi";
+import {
+  FiArrowUpRight,
+  FiDownload,
+  FiGithub,
+  FiLinkedin,
+} from "react-icons/fi";
+import { SiLeetcode } from "react-icons/si";
 
 const roles = [
   "Machine Learning Engineer",
@@ -19,23 +25,33 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
         >
-          <span className="eyebrow">AI Engineer / ML Engineer / Full-Stack Developer</span>
+          <span className="eyebrow">
+            AI Engineer / ML Engineer / Full-Stack Developer
+          </span>
           <h1>Hemant Kumar</h1>
           <p className="typed-line">
             <ReactTyped strings={roles} typeSpeed={48} backSpeed={30} loop />
           </p>
-          <p className="hero-tagline">Building Production-Ready AI Systems & SaaS Products</p>
+          <p className="hero-tagline">
+            Building Production-Ready AI Systems & SaaS Products
+          </p>
           <p className="hero-description">
             AI & Data Science undergraduate passionate about Machine Learning,
-            Data Science, Backend Engineering and Full-Stack Product Development.
+            Data Science, Backend Engineering and Full-Stack Product
+            Development.
           </p>
 
           <div className="hero-actions" aria-label="Hero actions">
             <a className="button button-primary" href="#projects">
               View Projects <FiArrowUpRight aria-hidden="true" />
             </a>
-            <a className="button" href="/Hemant_Kumar_Resume.pdf" download>
-              Download Resume <FiDownload aria-hidden="true" />
+            <a
+              className="button"
+              href="https://drive.google.com/file/d/1laiqDQghfv_DFt8TzEpY2JUQP4JnQdrz/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Resume <FiArrowUpRight aria-hidden="true" />
             </a>
             <a
               className="icon-button"
@@ -46,6 +62,7 @@ function Hero() {
             >
               <FiGithub aria-hidden="true" />
             </a>
+
             <a
               className="icon-button"
               href="https://www.linkedin.com/in/hemant-kumar-171472210/"
@@ -54,6 +71,16 @@ function Hero() {
               aria-label="Open LinkedIn profile"
             >
               <FiLinkedin aria-hidden="true" />
+            </a>
+
+            <a
+              className="icon-button"
+              href="https://codolio.com/profile/kum_hemant"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Open Codolio profile"
+            >
+              <SiLeetcode aria-hidden="true" />
             </a>
           </div>
         </motion.div>
