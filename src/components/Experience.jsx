@@ -26,7 +26,7 @@ const experiences = [
   {
     role: "Summer Intern - Data Science with Python",
     company: "Galgotias College of Engineering and Technology",
-    date: "1 Month",
+    date: "Jun 2026 - July 2026",
     responsibilities: [
       "Completed 20 machine learning and deep learning projects",
       "Built ANN, CNN, RNN, and LSTM models",
